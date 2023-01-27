@@ -12,3 +12,11 @@
     height: 100%;
   }
 }
+.content-wrapper {
+  width: 100%;
+
+  @include LargeScreen() {
+    max-width: 90rem;
+    margin: auto;
+  }
+}

@@ -2,7 +2,6 @@ import Button from "@mui/material/Button";
 import MovieIcon from "@mui/icons-material/Movie";
 import HeroBg from "../assets/hero-cinema.jpg";
 import "../stylesheets/hero/hero.scss";
-import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div
@@ -26,7 +25,7 @@ const Hero = () => {
             },
           }}
         >
-          <Link to={"/movies"}>Get Started</Link>
+          <a href="/movies">Get Started</a>
           <MovieIcon sx={{ marginLeft: "1rem" }} />
         </Button>
       </div>

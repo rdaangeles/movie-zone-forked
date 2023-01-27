@@ -1,0 +1,19 @@
+@import "../imports";
+
+.movie-card {
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover {
+    transform: translateY(-3%);
+  }
+  .card-img {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2%;
+    background-color: $c-secondary;
+    img {
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+    }
+  }
+}
