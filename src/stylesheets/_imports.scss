@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "react-lazy-load-image-component/src/effects/blur.css";
 @import "./variables";
 @import "./responsive";
 @import "./button";

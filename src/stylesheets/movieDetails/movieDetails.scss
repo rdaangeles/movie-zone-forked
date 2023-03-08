@@ -1,0 +1,18 @@
+@import "../imports";
+.movie-detail {
+  padding: 0 !important;
+  max-width: 60rem;
+  p {
+    line-height: 1.8rem;
+  }
+}
+.movie-detail-poster {
+  border-radius: 2%;
+  max-width: 23rem;
+  margin: auto;
+  img {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+}

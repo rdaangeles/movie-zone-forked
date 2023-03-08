@@ -28,16 +28,25 @@ const FeaturedMovie = () => {
             {featuredMovie.Title}
           </h1>
           <p className="text-sm my-3">
-            <span className="movie-detail">
+            <span className="movie-detail-genre-rating">
               <StarIcon
                 sx={{ fontSize: "1rem", fill: "yellow" }}
-                className="mb-[.2rem]"
+                className="mb-[.2rem] mr-1"
               />
               {featuredMovie.imdbRating}
             </span>
-            |<span className="movie-detail">{featuredMovie.Year}</span> |
-            <span className="movie-detail">{featuredMovie.Genre}</span> |{" "}
-            <span className="movie-detail">{featuredMovie.Runtime}</span>
+            |
+            <span className="movie-detail-genre-rating">
+              {featuredMovie.Year}
+            </span>{" "}
+            |
+            <span className="movie-detail-genre-rating">
+              {featuredMovie.Genre}
+            </span>{" "}
+            |{" "}
+            <span className="movie-detail-genre-rating">
+              {featuredMovie.Runtime}
+            </span>
           </p>
 
           <p className="text-sm lg:text-[1rem]">{featuredMovie.Plot}</p>
