@@ -7,8 +7,8 @@ import FeaturedMovie from "../components/UI/FeaturedMovie";
 
 const Movies = () => {
   const dispatch = useDispatch();
-  const movieTitle = "Star Wars";
-  
+  const movieTitle = "Harry Potter";
+
   useEffect(() => {
     dispatch(getMovies(movieTitle));
   }, []);
