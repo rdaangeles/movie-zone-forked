@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="bg-c-primary h-8 text-c-white flex items-center justify-center">
       <p className="text-xs">
-        © {getYear} Movie<span className="text-c-tertiary">Zone</span>
+        © {getYear} Movie<span className="text-c-tertiary">Zonessss</span>
       </p>
     </div>
   );
